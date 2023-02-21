@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Code/Front-end"
+		},
+		{
+			"path": "../../Code/Python"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Front-end"
+	}
+}

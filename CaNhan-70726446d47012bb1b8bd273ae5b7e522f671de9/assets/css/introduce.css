@@ -1,0 +1,123 @@
+/* Start Intro */
+
+.introduce {
+    display: flex;
+    padding-top: calc(var(--nav-height) + var(--padding-section));
+    padding-bottom: var(--padding-section);
+    border-bottom: 1px solid #dadada;
+}
+
+.introduce__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.introduce__image {
+    background-image: url('../img/thumb-intro.png');
+    padding-top: 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* End Intro */
+
+/* Start Mission */
+
+.mission__bg {
+    background-color: var(--secondary-color);
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+    border-bottom: 1px solid #dadada;
+}
+
+.mission h3 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 40px 0;
+    line-height: 54px;
+}
+
+.mission__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission__image {
+    width: 100%;
+    padding-top: 40%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.mission__content {
+    width: 70%;
+    text-align: center;
+}
+
+.mission__content--title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.mission__content--text {
+    line-height: 20px;
+    color: #505050;
+}
+
+/* End Mission */
+
+/* Start Brand */
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+}
+
+.brand h3 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 40px 0;
+    line-height: 54px;
+}
+
+.brand__list {
+    cursor: pointer;
+}
+
+.brand__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand__image {
+    width: 50%;
+    padding-top: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.brand__name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* End Brand */

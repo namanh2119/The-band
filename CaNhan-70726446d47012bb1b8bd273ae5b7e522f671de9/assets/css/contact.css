@@ -1,0 +1,50 @@
+.form__feedback {
+    padding-top: calc(var(--nav-height) + var(--padding-section));
+    padding-bottom: var(--padding-section);
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 4px 0;
+    line-height: 28px;
+}
+
+.form__input {
+    margin-bottom: 20px;
+}
+
+.form input, .form textarea {
+    width: 100%;
+}
+
+.form input {
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #CFCFCF;
+}
+
+.feedback textarea {    
+    border-radius: 4px;
+    border: 1px solid #CFCFCF;
+    padding: 16px 12px;
+}
+
+.button {
+    padding: 12px 60px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+}
+
+.map {
+    border-radius: 4px;
+}
+
+.map iframe {
+    width: 100%;
+    border-radius: 4px;
+    height: 100%;
+}
