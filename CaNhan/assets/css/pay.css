@@ -1,0 +1,5 @@
+.bill-container {
+    padding-top: calc(var(--nav-height) + var(--padding-section));
+    padding-bottom: var(--padding-section);
+}
+
